@@ -1,0 +1,64 @@
+
+body{
+    
+    background:#f2f2f2;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#555555;
+    font-size:16px;
+    
+}
+
+section{
+    
+    padding:10px 200px;
+    
+}
+
+nav{
+    
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:#555555;
+    height:100%;
+    width:200px;
+    display:none;
+    
+}
+
+.botao{
+   
+   outline: 0 none;
+   padding:10px 20px;
+   width:100%;
+   border:0px;
+   color:#f2f2f2;
+   background:#555555;
+   cursor:pointer;
+   
+}
+
+.botao:hover{
+    
+  background:#f2f2f2;  
+  color:#555555;
+    
+}
+
+#icone{
+    
+    position:fixed;
+    top:5px;
+    left:8px;
+    z-index: 100;
+    letter-spacing: 2px;   
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor:pointer;
+    border:0px;
+    border-radius:2px;
+    outline: 0 none;    
+    color:#ff3333;
+    
+}
+
